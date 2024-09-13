@@ -1,0 +1,220 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/*navbar*/
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffaa3c;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size:50px;
+    font-weight: bold;
+}
+.nav-links a:hover {
+    background-color: #4144e9;
+    color: white;
+    opacity: 50;
+    border-radius: 10%;
+    text-transform: uppercase;
+}
+
+/*end navbar*/
+.back-style{
+    background-image: url("background.jpg");
+    height: 750px;
+    background-position: center;
+    background-size: cover; /* or 'cover' based on the desired effect */
+    background-attachment: fixed; /* or 'fixed' */
+    width: 100%;
+}
+
+.headings h1{
+   font-size: 4rem;
+   color: #020aed;
+}
+
+.headings p{
+    font-size: 2rem;
+    color: #ffffff;
+    padding-bottom: 20px;
+ }
+
+.headings{
+    padding-top: 300px;
+    margin-left: 50px;
+}
+
+button {
+    background-color: #fd9218; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  button:hover {
+    background-color: #020aed; 
+  }
+  
+/*section back style*/
+.about{
+background-color:white;
+ min-height: 45rem;
+}
+.image{
+display: flex;
+justify-content: space-between;
+width: 100%;
+padding-top: 9rem;
+margin-right: auto;
+}
+.image>img{
+width: 600px;
+height: 600px;
+margin-left: 3rem;
+}
+.description{
+    width: 100%;
+}
+.description>h1{
+padding: 1.5rem;
+justify-content: center;
+text-align: center;
+width: 100%;
+color: blue;
+font-weight: bold;
+font-size: 2.5rem
+
+}
+.description p{
+    font-size: 1.5rem;
+    font-style: inherit;
+    display: flex;
+    padding: 1rem;
+    
+}
+.resume > h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: green;
+    padding-top: 5rem;
+}
+
+.resume-cont{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.resume-item{
+    width: 100%;
+    font-size: 1.5rem;
+    background-color: rgb(254, 239, 211);
+}
+
+.resume-cont > h1{
+    text-decoration:underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    color: blue;
+}
+.contacts{
+    width: 80%;
+    margin: auto;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.contacts > h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: green;
+    padding-top: 5rem;
+}
+
+.contacts > form > label{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.contacts > form > input{
+    width: 30%;
+    padding: 10px;
+}
+
+.contacts > form > textarea{
+    width: 30%;
+    padding: 10px;
+}
+
+.sendMessage{
+    color: black;
+    border: 1px solid black;
+    padding: 0.8rem 3.5rem;
+    cursor: pointer;
+
+}
+.footer{
+    color: brown;
+   font-size: 1.5rem;
+   background-color: beige;
+
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+body{
+    width: auto;
+   
+}
+}
+
+@media (max-width: 480px) {
+    body{
+        width: auto;
+    }
+    
+}
